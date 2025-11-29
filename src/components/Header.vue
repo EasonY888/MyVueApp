@@ -1,5 +1,5 @@
 <template>
-    <header class= "myHeader">My website created with Vue</header>
+    <header class= "myHeader">My first webpage created with Vue</header>
 </template>
 
 <script>
