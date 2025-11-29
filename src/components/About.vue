@@ -1,16 +1,21 @@
 <template>
     <div>
         <p>
-            This webpage was built using Vue.js<br>
-            I did this by first installing node.js on my laptop. Now I have npm (Node Package Manager)<br>
-            I then installed Vue.js with npm. After I build the webpage by setting up the app.vue, main.js and the index.html<br>
-            After I've created the webpage, I use npm to build and it's now avaible in a folder name dist.<br>
-            Next I shared in on GitHub via npm, and host it on GitHub pages. I did have to transfer all files before I deploy it though<br>
-            Challenges:<br>
-            I encountered quite a lot of challenges when attempting this problem, first I didn't understand how I should use Vue.js<br>
-            Installing it was fine, however, it was pretty torturing to understand main.js, App.vue and index.html. I had to look at some videos to understand.<br>
-            Finally, after I've completed the code, hosting it was another challenge, I had to follow a tutorial step by step, yet still multiple issues occured
-             and took me a long time to figure out the solution. Fortunately, I successfully employed it on GitHub pages.  
+            I began by installing Node.js on my laptop, which also gave me access to npm (the Node Package Manager).
+            Using npm, I created a new Vue project with Vite and installed all the necessary dependencies. After that, I
+            built my webpage by modifying files such as App.vue, main.js, and index.html inside the project.
+            Once the webpage was working locally, I generated a production build using the npm run build command.
+            This created a dist folder containing the optimized files for deployment. To publish my site, I created a
+            GitHub repository, uploaded my project files, and configured Vite so it could be hosted correctly on GitHub
+            Pages. After pushing my project to GitHub, I enabled GitHub Pages to serve the contents of the dist folder.
+        </p>
+        <p style="font-weight: bold;">Challenges:</p>
+        <p>
+            I encountered several challenges while completing this problem. At first, I struggled to understand how
+            Vue.js works, especially how components, App.vue, and main.js interact. I had to watch tutorials to fully
+            understand the structure. Another major challenge was deployment. I followed multiple guides, but I still ran
+            into many issues with Vite configuration and GitHub Pages hosting. After troubleshooting and testing
+            different fixes, I eventually managed to get the website working online.
         </p>
     </div>
 </template>
